@@ -17,7 +17,7 @@ print.log("markdownTag")
 
 #### Imagen del instituto
 
-![](https://portal.edu.gva.es/iesporcons/wp-content/uploads/sites/324/2020/05/institut.jpg)
+![ScreenShot](https://portal.edu.gva.es/iesporcons/wp-content/uploads/sites/324/2020/05/institut.jpg)
 
 # Listas desordenadas
 
