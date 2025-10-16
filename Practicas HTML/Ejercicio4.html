@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <header> <a href="https://github.com/ConnorTheCone/LLMarcas_Practica0">Github</a> 
-            <a href="https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Practicas%20HTML/EjercicioHTML_P1UD1.html">Ejercicio 1</a> 
-            <a href="https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Practicas%20HTML/Ejercicio2HTML.html">Ejercicio 2</a> 
-            <a href="https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Practicas%20HTML/Ejercicio3HTML.html">Ejercicio 3</a> 
+            <meta charset="UTF-8">
+            <meta name="description" content="Pagina del ejercicio 4, imagen y un video">
+            <meta name="keywords" content="HTML">
+            <meta name="author" content="Adrian Soler Olivares">
+
+        <header>
+                <a href="https://github.com/ConnorTheCone/LLMarcas_Practica0">Github</a> 
+                <a href="https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Practicas%20HTML/EjercicioHTML_P1UD1.html">Ejercicio 1</a> 
+                <a href="https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Practicas%20HTML/Ejercicio2HTML.html">Ejercicio 2</a> 
+                <a href="https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Practicas%20HTML/Ejercicio3HTML.html">Ejercicio 3</a> 
         </header>
-        <h1>Ejercicio 4 HTML</h1>
-        <img src="https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/AlumnoDelSemestre.png?raw=true" alt="Foto de un gato" width="256" height="256">
+        <hr>
+        <section id="titulo">
+            <h1>Ejercicio 4 HTML</h1>
+                    <a href="#image">Atajo a la imagen</a>
+                    <a href="#video">Atajo  al video</a>
+            <hr>
+        </section>
+            <section id="image">
+           <h3> Imagen representando el alumno del mes junto a los alumnos mas buscados</h3>
+            <br>
+            <br>
+            <img src="https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Imagenes/AlumnoDelSemestre.png?raw=true" alt="Foto de un gato" width="256" height="256">
+                <br>
+        <a href="#titulo"> Vuelta al titulo</a>
+        <a href="#video"> Atajo al video</a>
+        <hr>
+    </section>
     </head>
     <body>
+        <section id="video">
+            <h3>Pequeño video explicando el modelo OSI y TCP/IP</h3>
+            <br>
+            <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/aVTwtJcRZDo?si=gK1Eh8wdNBMtPdv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br>
+            <br>
+            <a href="#titulo"> Vuelta al titulo</a>
+            <a href="#image"> Vuelta a la imagen</a>
+        </section>
     </body>
 </html>
