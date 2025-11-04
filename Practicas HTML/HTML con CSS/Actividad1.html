@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio de selectores</title>
+    <style>
+        /* Todos los elementos de la pagina */
+           * {
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*Primer elemento <h1> de <main>*/
+           h1 {
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 50px;
+            background: linear-gradient(to right, #7b68eb 0%, #CF1512 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Los elementos <em> contenidos en el elemento con id=primerParrafo */
+            em {
+            color: #ffffff;
+            background-color: #7b68eb;
+        }
+
+        /*Primera letra del elemento con id=primerParrafo*/
+         #primerParrafo::first-letter {
+            color: #7b68eb;
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        /*Todos los elementos de tipo listado no ordenado (<ul>) con clase=listadoSinBullet*/
+         ul.listadoSinBullet {
+            list-style: none;
+        }
+
+        /*Todos los elementos <span> que se encuentren dentro de un <li> con class=elementoPar de una unordered list (<ul>)*/
+          ul li.elementoPar span {
+            color: red
+        }
+
+        /*Todos los elementos <span> que se encuentren dentro de un <li> con class=elementoImpar de una unordered list (<ul>)*/
+           ul li.elementoImpar span {
+            color: rgb(204, 154, 30)
+        }
+
+        /*Pseudoelemento before de un <span> con class=emojiPaint que se encuentre en el interior de un <li> */
+           li span.emojiPaint::before {
+            content: " 🎨 ";
+        }
+
+        /*Pseudoelemento before de un <span> con class=emojiSeparacion que se encuentre en el interior de un <li> */
+            li span.emojiSeparacion::before {
+            content: " 💔 ";
+        }
+
+        /*Pseudoelemento before de un <span> con class=emojiReciclaje que se encuentre en el interior de un <li> */
+           li span.emojiReciclaje::before {
+            content: " 🚮 ";
+        }
+
+        /*Pseudoelemento before de un <span> con class=emojiOjo que se encuentre en el interior de un <li> */
+           li span.emojiOjo::before {
+            content: " 👀 ";
+        }
+
+        /*Pseudoelemento before de un <span> con class=emojiTelf que se encuentre en el interior de un <li> */
+           li span.emojiTelf::before {
+            content: " 📞 ";
+        }
+
+        /*Elementos <strong> que se encuentren dentro de un list element (<li>) de una unordered list (<ul>)*/
+           ul li strong {
+            font-weight: bold;
+            color: #7b68eb;
+        }
+
+        /*Párrafo con class="textoCentrado"*/
+           p.textoCentrado {
+            text-align: center;
+        }
+
+        /*Primer elemento <cite> dentro del párrafo con clase=ultimoParrafo*/
+           p.ultimoParrafo cite:first-of-type {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <h1>qué es css</h1>
+        <p id="primerParrafo">
+            CSS (Cascading Style Sheets) es un lenguaje de marcado utilizado para definir la presentación y el estilo de
+            documentos HTML (y otros lenguajes de marcado web). <em>CSS se utiliza para controlar la apariencia visual
+                de una página web, incluyendo el diseño, colores, fuentes, márgenes, espaciado y otros aspectos
+                estilísticos</em>. A través de CSS, los desarrolladores web pueden separar la estructura y el contenido
+            de una página web de su diseño y estilo.
+        </p>
+
+        <p id="segundoParrafo">
+            <strong>En resumen, CSS permite:</strong>
+        <ul class="listadoSinBullet listadoConEmojis">
+            <li class="elementoImpar">
+                <span class="emojiPaint">Definir estilos:</span> Los desarrolladores web pueden utilizar CSS para
+                <strong>aplicar estilos a
+                    elementos HTML</strong>,
+                como texto, imágenes, enlaces, tablas y más. Esto incluye definir fuentes, colores, tamaños, márgenes y
+                otros atributos visuales.
+            </li>
+            <li class="elementoPar">
+                <span class="emojiSeparacion">Separación de contenido y estilo:</span> CSS promueve la separación de la
+                estructura y el
+                contenido (HTML)
+                del diseño y el estilo. Esto <strong>facilita el mantenimiento y la actualización</strong> de un sitio
+                web, ya que los
+                cambios de estilo se pueden realizar en un solo lugar sin afectar el contenido subyacente.
+            </li>
+            <li class="elementoImpar">
+                <span class="emojiReciclaje">Reutilización de estilos:</span> Los estilos definidos en una hoja de
+                estilo CSS
+                se pueden
+                aplicar a múltiples páginas o elementos en un sitio web, lo que <strong>ahorra tiempo y esfuerzo en el
+                    diseño
+                </strong>.
+            </li>
+            <li class="elementoPar">
+                <span class="emojiOjo">Consistencia visual:</span> CSS permite mantener una <strong>apariencia visual
+                    coherente</strong>
+                en todo un sitio
+                web. Esto garantiza que los elementos se vean y se comporten de la misma manera en todas las páginas.
+            </li>
+            <li class="elementoImpar">
+                <span class="emojiTelf">Adaptable a dispositivos:</span> CSS permite crear <strong>diseños
+                    responsivos</strong> que se
+                ajusten
+                automáticamente a diferentes tamaños de pantalla, lo que es esencial en la era de dispositivos móviles.
+            </li>
+        </ul>
+        </p>
+        <p id="tercerParrafo">
+            En resumen, CSS es una parte fundamental de la construcción de sitios web modernos y juega un papel clave en
+            la mejora de la experiencia del usuario al controlar cómo se presenta el contenido en un navegador web.
+        </p>
+        <p class="ultimoParrafo textoCentrado">
+            <cite>Texto generado con chatgpt</cite>
+        </p>
+    </main>
+
+</body>
+
+</html>
