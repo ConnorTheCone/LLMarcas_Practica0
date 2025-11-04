@@ -6,6 +6,8 @@ input, select {
     cursor: pointer;
 }
 
-input {
-
+ .input, [type="submit"]{
+    background-color: #297ac7;
+    color: white;
+    order: none;
 }
