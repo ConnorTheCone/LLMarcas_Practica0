@@ -11,3 +11,25 @@ input, select {
     color: white;
     order: none;
 }
+
+ .input, [type="submit"]:hover {
+    background-color: #4083c2;
+}
+
+.input [type="text"], select{
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+.input, ::placeholder{
+    color: #297ac7;
+}
+
+form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
