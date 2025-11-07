@@ -44,6 +44,6 @@ form {
 }
 
 *{
-    background-image: url("https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Imagenes/MalaCalidad.png?raw=true");
-    background-blend-mode: overlay;
+    background-image: url("https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Imagenes/FondoMalaCalidad.png?raw=true://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Imagenes/MalaCalidad.png?raw=true");
+    background-blend-mode: screen;
 }
