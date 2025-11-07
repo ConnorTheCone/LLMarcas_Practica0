@@ -1,5 +1,5 @@
 input, select {
-    width: 100%;
+    width: 95%;
     padding: 14px 20px;
     margin: 8px 0px;
     border-radius: 4px;
@@ -29,7 +29,8 @@ input, select {
 
 form {
     border-radius: 5px;
-    background-color: #f2f2f2;
+   /* background-color: #f2f2f2; */
+   background-image: url("");
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
