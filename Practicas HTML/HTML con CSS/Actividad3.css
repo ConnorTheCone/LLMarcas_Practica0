@@ -1,3 +1,5 @@
+
+
 input, select {
     width: 95%;
     padding: 14px 20px;
@@ -7,6 +9,9 @@ input, select {
 }
 
  .input, [type="submit"]{
+
+    background-image: url("https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Imagenes/MalaCalidad.png?raw=true");
+    background-blend-mode: multiply;
     background-color: #297ac7;
     color: white;
     order: none;
@@ -19,6 +24,8 @@ input, select {
 .input [type="text"], select{
     display: inline-block;
     border: 1px solid #ccc;
+    background-image: url("https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Imagenes/MalaCalidad.png?raw=true");
+    background-blend-mode: multiply;
     box-sizing: border-box;
 
 }
@@ -29,8 +36,14 @@ input, select {
 
 form {
     border-radius: 5px;
-   /* background-color: #f2f2f2; */
-   background-image: url("");
+    background-color: #f2f2f2;
+    background-image: url("https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Imagenes/MalaCalidad.png?raw=true");
+    background-blend-mode: multiply;
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*{
+    background-image: url("https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Imagenes/MalaCalidad.png?raw=true");
+    background-blend-mode: overlay;
 }
