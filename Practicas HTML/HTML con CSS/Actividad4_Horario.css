@@ -104,6 +104,10 @@ td {
 
 }
 
-.nothing {
-    
+.nothing:hover {
+    background-color: #ffffff46;
+    background-image: url(https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Imagenes/Gatoconchesumare.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.5;
 }
