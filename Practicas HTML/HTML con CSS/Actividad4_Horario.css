@@ -1,7 +1,109 @@
 table {
-    border-radius: 5px;
+    border-collapse: collapse;
+    font-size: 12px;
 }
 
-td, th {
-    border: 5px solid #dddddd;
+td {
+    padding: 5px 5px 10px 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 1em;
+
+    width: 100px;
+}
+
+.day {
+    color: orangered;
+    font-weight: 700;
+    font-size:  1.2em;
+      background-color: whitesmoke
+}
+
+.schelude {
+    color: orange;
+    font-weight: 700;
+    font-size:  1.2em;
+      background-color: whitesmoke
+}
+
+.time {
+    color: orangered;
+    font-weight: 700;
+    font-size:  1em;
+    background-color: whitesmoke
+}
+
+.hardware{
+    background-color: orange;
+    font-weight: 700;
+    color: black;
+
+}
+
+.db {
+    background-color:cornflowerblue;
+    font-weight: 700;
+    color: black;
+
+}
+
+.sys {
+    background-color: cadetblue;
+    font-weight: 700;
+    color: black;
+
+}
+
+.eng {
+    background-color:darkorchid;
+    font-weight: 700;
+    color: black;
+
+}
+
+.fol {
+    background-color:brown;
+    font-weight: 700;
+    color: black;
+
+}
+
+.network {
+    background-color: green;
+    font-weight: 700;
+    color: black;
+
+
+}
+
+.tut {
+    background-color: peachpuff;
+    font-weight: 700;
+    color: black;
+
+}
+
+.mejorAsignatura {
+    background-color: lightgreen;
+    font-weight: 700;
+    color: black;
+
+}
+
+.project {
+    background-color: coral;
+    font-weight: 700;
+    color: black;
+
+}
+
+.snack {
+    background-color: yellow;
+    font-weight: 700;
+    color: black;
+
+}
+
+.nothing {
+    
 }
