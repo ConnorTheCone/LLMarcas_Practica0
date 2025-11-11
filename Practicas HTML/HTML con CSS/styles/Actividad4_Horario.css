@@ -1,6 +1,8 @@
 table {
     border-collapse: collapse;
     font-size: 12px;
+
+    outline: double grey;
 }
 
 td {
@@ -23,7 +25,7 @@ td {
     color: orange;
     font-weight: 700;
     font-size:  1.2em;
-      background-color: whitesmoke
+    background-color: whitesmoke
 }
 
 .time {
@@ -105,6 +107,7 @@ td {
 }
 
 .nothing:hover {
+
     background-color: #ffffff46;
     background-image: url(https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Imagenes/Gatoconchesumare.jpg?raw=true);
     background-repeat: no-repeat;
