@@ -41,12 +41,12 @@ ul.navigation_bar li a{
 
 
 ul li a{
-    height: auto;
+ 
     font-weight: 700;
     
 }
 
 ul li a:hover{
-
-    background-color: brown;
+    color: black;
+    background-color: #ffd302ff;
 }
