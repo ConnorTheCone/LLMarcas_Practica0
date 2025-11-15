@@ -1,10 +1,19 @@
 
 .top_banner{
-    height: 100px;
+    width: 100%;
+
+
+    background-color: black;
 }
 
-ul {
-    
+.top_banner img{
+    position: relative;
+    translate: -50%;
+    left: 50%;
+}
+
+ul.navigation_bar {
+    position: sticky;
     list-style-type: none;
     overflow: hidden;
     margin: 0;
@@ -12,11 +21,11 @@ ul {
     background-color: black;
 }
 
-ul li{
+ul.navigation_bar li{
     float: right;
 }
 
-ul li.left_url{
+ul.navigation_bar li.left_url{
     float: left;
 }
 
