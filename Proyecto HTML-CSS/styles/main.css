@@ -1,15 +1,22 @@
+html {
+    background-color:whitesmoke ;
+}
+
 
 .top_banner{
     width: 100%;
-
-
-    background-color: yellow;
+    top: 10px;
+    margin: 10px;
 }
 
 .top_banner img{
     position: relative;
     translate: -50%;
     left: 50%;
+    background-color: black;
+    border-radius: 20px;
+    border: solid #ffd302ff 5px;
+
 }
 
 ul.navigation_bar {
@@ -21,6 +28,8 @@ ul.navigation_bar {
     margin: 0;
 
     background-color: black;
+    border: solid #ffd302ff 5px;
+
 }
 
 ul.navigation_bar li{
@@ -37,8 +46,7 @@ ul.navigation_bar li.left_url{
     left: 50%;
     translate: -50%;
     height: 50px;
-    width: 50px;
-}
+    width: 50px;}
 
 
 ul.navigation_bar li a{
