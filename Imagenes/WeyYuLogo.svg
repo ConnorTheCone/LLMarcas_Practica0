@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1920"
-   height="1080"
-   viewBox="0 0 1920 1080"
+   width="630.35687"
+   height="237.92212"
+   viewBox="0 0 630.35687 237.92212"
    version="1.1"
    id="svg1"
    xml:space="preserve"
    inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
-   sodipodi:docname="WeyYuLogo.svg.2025_11_15_11_00_04.0.svg"
+   sodipodi:docname="WeyYuLogo.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="1.0342593"
-     inkscape:cx="735.79228"
-     inkscape:cy="469.41807"
+     inkscape:zoom="0.73133176"
+     inkscape:cx="101.18527"
+     inkscape:cy="105.97106"
      inkscape:window-width="2560"
      inkscape:window-height="1368"
      inkscape:window-x="0"
@@ -40,12 +40,13 @@
        id="rect2" /><rect
        x="672.5"
        y="267.82452"
-       width="787.48204"
-       height="76.004035"
+       width="787.48206"
+       height="76.004036"
        id="rect1" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><rect
+     id="layer1"
+     transform="translate(-644.82153,-421.03894)"><rect
        style="fill:#000000;stroke-width:0.939756"
        id="rect3"
        width="630.35687"
