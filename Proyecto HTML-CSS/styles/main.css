@@ -3,7 +3,7 @@
     width: 100%;
 
 
-    background-color: black;
+    background-color: yellow;
 }
 
 .top_banner img{
@@ -14,10 +14,12 @@
 
 ul.navigation_bar {
     position: sticky;
+    top: 5px;
+
     list-style-type: none;
     overflow: hidden;
     margin: 0;
-    padding: 0;
+
     background-color: black;
 }
 
@@ -27,6 +29,15 @@ ul.navigation_bar li{
 
 ul.navigation_bar li.left_url{
     float: left;
+}
+
+.middle_icon{
+    position: absolute;
+    object-fit:contain;
+    left: 50%;
+    translate: -50%;
+    height: 50px;
+    width: 50px;
 }
 
 
@@ -49,4 +60,9 @@ ul li a{
 ul li a:hover{
     color: black;
     background-color: #ffd302ff;
+}
+
+body {
+
+    height: 5000px;
 }
