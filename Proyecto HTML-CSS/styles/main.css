@@ -1,3 +1,8 @@
+@font-face {
+    font-family: neuroTipical;
+    src: url(https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/f9c99100ab789d413bb914fe07b110e4df581686/Fonts/Neuropolitical%20Rg.otf);
+}
+
 html {
     background-color:whitesmoke ;
 }
@@ -50,12 +55,14 @@ ul.navigation_bar li.left_url{
 
 
 ul.navigation_bar li a{
+    font-family: neuroTypical;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 28px;
 
     text-decoration: none;
+    
 }
 
 
