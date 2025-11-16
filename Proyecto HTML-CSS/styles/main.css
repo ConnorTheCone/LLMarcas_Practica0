@@ -9,76 +9,167 @@ html {
 
 
 .top_banner{
+    position: relative;
+    left: 50%;
+    translate: -50%;
+
     width: 100%;
     top: 10px;
-    margin: 10px;
 }
 
+
+
 .top_banner img{
+    margin-top: -50px;
     position: relative;
     translate: -50%;
     left: 50%;
-    background-color: black;
+   /* background-color: black;
     border-radius: 20px;
     border: solid #ffd302ff 5px;
+   */ 
+}
+
+/*.top_banner hr.left_line {
+    position: relative;
+    bottom: 80px;
+    border-top: 5px solid aqua;
+
+    margin-left: auto;
+}*/
+
+
+.company_name {
+    margin-top: -50px;
+    font-family: neuroPolitical;
+    text-align: center;
+}
+
+.top_banner div{
+    position: absolute;
+    height: 10px;
+    border-radius: 20px;
+
+    background-color: cadetblue;
     
 }
 
-ul.navigation_bar {
-    position: sticky;
+.top_banner div.left_line_t{
+    position: absolute;
+    width: 20%;
+    top: 40%;
+    right: 50%;
+    translate: -210px;
+}
+
+.top_banner div.right_line_t{
+
+    position: absolute;
+    width: 20%;
+    top: 40%;
+    left: 50%;
+    translate: 210px;
+}
+
+
+.top_banner div.right_line_b{
+
+    width: 30%;
+    top: 55%;
+    right: 50%;
+    translate: -180px;
+}
+
+.top_banner div.left_line_b{
+
+    width: 30%;
+    top: 55%;
+    left: 50%;
+    translate: 180px;
+}
+
+
+.nav_container{
     top: 5px;
+    position: sticky;
+    text-align: center;
+}
 
-    list-style-type: none;
+ul.navigation_bar {
+    list-style-type:none;
+    display:inline-block;
     overflow: hidden;
+    background-color:darkslategrey;
+    border: solid cadetblue 5px;
+    border-radius: 50px;
     margin: 0;
-
-    background-color: black;
-    border: solid #ffd302ff 5px;
+    padding: 0;
 
 }
 
 ul.navigation_bar li{
-    float: right;
+    float:inline-end;
 }
+/*
+ul.navigation_bar li::before{
+    content: "";
+    background-color: red;
 
-ul.navigation_bar li.left_url{
-    float: left;
-}
+    height: 10px;
+    width: 10px;
 
-.middle_icon{
     position: absolute;
-    object-fit:contain;
-    left: 50%;
-    translate: -50%;
-    height: 50px;
-    width: 50px;}
-
-
+    border-radius: 5px;
+    top: 50%;
+    margin-left: -3ex;
+    translate: -50% -50%;
+}
+*/
 ul.navigation_bar li a{
-
-    font-family: neuroPolitical;
-    display: block;
-    color: white;
-    text-align: center;
     padding: 14px 28px;
 
+    font-family: neuroPolitical;
+
+    display: block;
+
+    color: white;
+    
+
     text-decoration: none;
-    
+    font-weight: 700; 
 }
 
+ul li a:hover:not(.nav_empty){
 
-ul li a{
- 
-    font-weight: 700;
-    
-}
-
-ul li a:hover{
     color: black;
-    background-color: #ffd302ff;
+    background-color:aquamarine;
+}
+
+.first_propaganda_main {
+
+    margin: auto;
+    background-color: aquamarine;
+    width: 85%;
+    height: 500px;
+    
+
+}
+
+.first_propaganda_img img{
+    object-fit:fill;
+    overflow:hidden;
+    height: 100%;
+    width: 50%;
+}
+
+.first_propaganda_text {
+
+    text-align: center;
+
 }
 
 body {
 
     height: 5000px;
 }
+
