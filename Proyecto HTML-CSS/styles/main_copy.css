@@ -9,6 +9,7 @@ html {
 
 
 .top_banner{
+    
     display: flex;
 
     flex-direction: row;
@@ -24,55 +25,66 @@ html {
 
     display: flex;
 
-    flex-direction: row;
-    justify-content: flex-end;
     flex-grow: 1;
 }
 
 .top_lines_left_container{
+
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+
     flex-grow: 1;
 }
 
 .top_banner div.left_line_t{
     height: 10px;
-    width: 80%;
+    width: 55%;
     border-radius: 20px;
-    margin-bottom: 5%;
-    background-color: red;
+    background-color: cadetblue;
+
+}
+
+.top_banner div.left_line_b{
+    height: 10px;
+    border-radius: 20px;
+    width: 80%;
+
+    background-color: cadetblue;
+
+}
+
+.top_lines_right_container_main{
+
+    display: flex;
+
+    flex-grow: 1;
+}
+
+.top_lines_right_container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    flex-grow: 1;
 }
 
 .top_banner div.right_line_t{
     height: 10px;
+    width: 55%;
     border-radius: 20px;
-   background-color: yellow;
+    background-color: cadetblue;
 }
 
 
 .top_banner div.right_line_b{
     height: 10px;
     border-radius: 20px;
-    background-color: gray;
+    width: 80%;
+    background-color: cadetblue;
 }
-
-.top_banner div.left_line_b{
-    height: 10px;
-    border-radius: 20px;
-    width: 55%;
-    background-color: blue;
-
-}
-
-
-.top_lines_right_container{
-
-    flex-grow: 1;
-}
-
-
 
 .company_name {
     margin-top: -50px;
@@ -96,8 +108,8 @@ ul.navigation_bar {
     background-color:darkslategrey;
     border: solid cadetblue 5px;
     border-radius: 50px;
-    margin: 0;
-    padding: 0;
+
+ 
 
 }
 
