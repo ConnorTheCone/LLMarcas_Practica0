@@ -9,34 +9,69 @@ html {
 
 
 .top_banner{
-    position: relative;
-    left: 50%;
-    translate: -50%;
+    display: flex;
 
-    width: 100%;
-    top: 10px;
+    flex-direction: row;
+    flex-flow: row nowrap;
+
+    justify-content: center;
+
+    background-color: bisque;
 }
 
 
+.top_lines_left_container_main{
 
-.top_banner img{
-    margin-top: -50px;
-    position: relative;
-    translate: -50%;
-    left: 50%;
-   /* background-color: black;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.top_lines_left_container{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.top_banner div.left_line_t{
+    height: 10px;
+    width: 80%;
     border-radius: 20px;
-    border: solid #ffd302ff 5px;
-   */ 
+    margin-bottom: 5%;
+    background-color: red;
 }
 
-/*.top_banner hr.left_line {
-    position: relative;
-    bottom: 80px;
-    border-top: 5px solid aqua;
+.top_banner div.right_line_t{
+    height: 10px;
+    border-radius: 20px;
+   background-color: yellow;
+}
 
-    margin-left: auto;
-}*/
+
+.top_banner div.right_line_b{
+    height: 10px;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.top_banner div.left_line_b{
+    height: 10px;
+    border-radius: 20px;
+    width: 55%;
+    background-color: blue;
+
+}
+
+
+.top_lines_right_container{
+
+    flex-grow: 1;
+}
+
 
 
 .company_name {
@@ -45,48 +80,7 @@ html {
     text-align: center;
 }
 
-.top_banner div{
-    position: absolute;
-    height: 10px;
-    border-radius: 20px;
 
-    background-color: cadetblue;
-    
-}
-
-.top_banner div.left_line_t{
-    position: absolute;
-    width: 20%;
-    top: 40%;
-    right: 50%;
-    translate: -210px;
-}
-
-.top_banner div.right_line_t{
-
-    position: absolute;
-    width: 20%;
-    top: 40%;
-    left: 50%;
-    translate: 210px;
-}
-
-
-.top_banner div.right_line_b{
-
-    width: 30%;
-    top: 55%;
-    right: 50%;
-    translate: -180px;
-}
-
-.top_banner div.left_line_b{
-
-    width: 30%;
-    top: 55%;
-    left: 50%;
-    translate: 180px;
-}
 
 
 .nav_container{
