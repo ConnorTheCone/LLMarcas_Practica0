@@ -87,13 +87,10 @@ html {
 }
 
 .company_name {
-    margin-top: -50px;
+    
     font-family: neuroPolitical;
     text-align: center;
 }
-
-
-
 
 .nav_container{
     top: 5px;
@@ -108,9 +105,6 @@ ul.navigation_bar {
     background-color:darkslategrey;
     border: solid cadetblue 5px;
     border-radius: 50px;
-
- 
-
 }
 
 ul.navigation_bar li{
@@ -153,29 +147,175 @@ ul li a:hover:not(.nav_empty){
 
 .first_propaganda_main {
 
+    
     display: flex;
-    justify-content: flex-start;
+    justify-content:center;
     background-color: aquamarine;
-    width: 85%;
-    height: 500px;
+    
+    height: 250px;
+    
+    overflow:hidden;
+}
+
+.first_propaganda_img{
+    margin: 10px;
+
 
     overflow:hidden;
-    
-
+    height: 100%;
+    flex-basis: 100%;
 }
 
 .first_propaganda_img img{
-    object-fit:fill;
-    overflow:hidden;
+
     height: 100%;
- 
+    width: 100%;
+
+    object-fit:cover;
 }
 
 .first_propaganda_text {
-
+    background-color: yellow;
     text-align: center;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.company_options_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.company_option {
+
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+   
 
 }
+
+.company_option_bio {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.option_bio_img {
+    align-content: stretch;
+    overflow:hidden;
+  
+    flex-basis: 100%;
+}
+
+.option_bio_img img{
+
+    height: 100%;
+    width: 100%;
+
+    object-fit:cover;
+}
+
+.option_bio_text{
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content: space-evenly;
+
+    margin: 10px;
+}
+
+.option_bio_text button{
+    align-self: center;
+    height: 50px;
+    width: 200px;
+
+}
+
+.company_option_colon {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.option_colon_img {
+    align-content: stretch;
+    overflow:hidden;
+    height: 100%;
+    flex-basis: 100%;
+}
+
+.option_colon_img img{
+
+    height: 100%;
+    width: 100%;
+
+    object-fit:cover;
+}
+
+.option_colon_text{
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content: space-evenly;
+
+    margin: 10px;
+}
+
+.option_colon_text button{
+    align-self: center;
+    height: 50px;
+    width: 200px;
+
+}
+
+.company_option_iplusd {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.option_iplusd_img {
+    align-content: stretch;
+    overflow:hidden;
+  
+    flex-basis: 100%;
+}
+
+.option_iplusd_img img{
+
+    height: 100%;
+    width: 100%;
+
+    object-fit:cover;
+}
+
+.option_iplusd_text{
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content: space-evenly;
+    
+    margin: 10px;
+}
+
+.option_iplusd_text button{
+    align-self: center;
+    height: 50px;
+    width: 200px;
+
+}
+
 
 body {
 
