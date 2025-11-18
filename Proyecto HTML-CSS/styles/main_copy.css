@@ -78,7 +78,6 @@ html {
     background-color: cadetblue;
 }
 
-
 .top_banner div.right_line_b{
     height: 10px;
     border-radius: 20px;
@@ -93,23 +92,31 @@ html {
 }
 
 .nav_container{
-    top: 5px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
     position: sticky;
-    text-align: center;
 }
 
 ul.navigation_bar {
+    
+    
+    display: inline-flex;
+
+    flex-direction: row-reverse;
+    justify-content: center;
+
     list-style-type:none;
-    display:inline-block;
     overflow: hidden;
     background-color:darkslategrey;
     border: solid cadetblue 5px;
     border-radius: 50px;
+
+    padding-left: 0;
+
 }
 
-ul.navigation_bar li{
-    float:inline-end;
-}
+
 /*
 ul.navigation_bar li::before{
     content: "";
@@ -139,12 +146,13 @@ ul.navigation_bar li a{
     font-weight: 700; 
 }
 
-ul li a:hover:not(.nav_empty){
+ul li a:hover{
 
     color: black;
     background-color:aquamarine;
 }
 
+/*Rectangulo con texto inicial */
 .first_propaganda_main {
 
     
@@ -175,11 +183,15 @@ ul li a:hover:not(.nav_empty){
 }
 
 .first_propaganda_text {
+    display: flex;
+    flex-flow: column;justify-content: space-between;
     background-color: yellow;
     text-align: center;
     flex-grow: 1;
     margin: 5px;
 }
+
+/* fin del rectangulo con texto inicial*/
 
 .company_options_main{
     display: flex;
@@ -205,10 +217,11 @@ ul li a:hover:not(.nav_empty){
 }
 
 .option_bio_img {
-    align-content: stretch;
     overflow:hidden;
   
+    height: 100%;
     flex-basis: 100%;
+
 }
 
 .option_bio_img img{
@@ -316,6 +329,19 @@ ul li a:hover:not(.nav_empty){
 
 }
 
+button {
+    border: none;
+    border-radius: 50px;
+    background-color: darkslategrey;
+    color: white;
+    font-weight: 700;
+}
+
+button:hover {
+ 
+    background-color: cadetblue;
+    cursor: pointer;
+}
 
 body {
 
