@@ -160,12 +160,9 @@ ul li a:hover{
 
 .first_propaganda_img{
 
- 
-
     margin: 10px;
     
     width: 5%;
-  
     
     overflow:hidden;
 }
@@ -190,21 +187,54 @@ ul li a:hover{
     padding: 20px;
 }
 
+.first_propaganda_text h2 {
+
+    font-size: 30px;
+}
+
+
+.first_propaganda_text p {
+
+    font-size: 30px;
+}
+
 /* fin del rectangulo con texto inicial*/
 
+main {
+
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    justify-content: center;
+
+}
+
+.main_body_content {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
 .company_options_main{
+    
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
+
 }
 
 .company_option {
 
+    align-self: center;
     margin: 10px;
     display: flex;
     justify-content: center;
     background-color: yellow;
-   
+
+    height: 400px;
+    width: 80%;
 
 }
 
@@ -342,8 +372,5 @@ button:hover {
     cursor: pointer;
 }
 
-body {
 
-    height: 5000px;
-}
 
