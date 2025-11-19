@@ -155,23 +155,19 @@ ul li a:hover{
 /*Rectangulo con texto inicial */
 .first_propaganda_main {
 
-    
-    display: flex;
-    justify-content:center;
-    background-color: aquamarine;
-    
-    height: 250px;
-    
-    overflow:hidden;
+
 }
 
 .first_propaganda_img{
+
+ 
+
     margin: 10px;
-
-
+    
+    width: 50px;
+    height: 50px;
+    
     overflow:hidden;
-    height: 100%;
-    flex-basis: 100%;
 }
 
 .first_propaganda_img img{
@@ -183,11 +179,13 @@ ul li a:hover{
 }
 
 .first_propaganda_text {
+
     display: flex;
-    flex-flow: column;justify-content: space-between;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
     background-color: yellow;
     text-align: center;
-    flex-grow: 1;
     margin: 5px;
 }
 
