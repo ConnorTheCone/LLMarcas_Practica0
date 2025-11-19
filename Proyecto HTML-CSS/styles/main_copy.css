@@ -7,6 +7,18 @@ html {
     background-color:whitesmoke ;
 }
 
+.background_top {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    translate: 0 -15%;
+}
+
+.background_top img {
+    width: 100%;
+    object-fit: contain;
+}
+
 
 .top_banner{
     
@@ -17,7 +29,8 @@ html {
 
     justify-content: center;
 
-    background-color: bisque;
+    background-image: url();
+
 }
 
 
@@ -181,7 +194,6 @@ ul li a:hover{
     flex-flow: column;
     align-items: center;
     justify-content: space-between;
-    background-color: yellow;
     text-align: center;
     
     padding: 20px;
@@ -204,7 +216,6 @@ main {
 
     display: flex;
     flex-direction: row;
-    background-color: brown;
     justify-content: center;
 
 }
