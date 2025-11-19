@@ -238,7 +238,7 @@ ul li a:hover{
     flex-direction: column;
 
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     margin: 10px;
 }
