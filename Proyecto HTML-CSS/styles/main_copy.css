@@ -154,7 +154,7 @@ ul li a:hover{
 
 /*Rectangulo con texto inicial */
 .first_propaganda_main {
-
+    margin: 5px;
 
 }
 
@@ -164,8 +164,8 @@ ul li a:hover{
 
     margin: 10px;
     
-    width: 50px;
-    height: 50px;
+    width: 5%;
+  
     
     overflow:hidden;
 }
@@ -175,7 +175,7 @@ ul li a:hover{
     height: 100%;
     width: 100%;
 
-    object-fit:cover;
+    object-fit:contain;
 }
 
 .first_propaganda_text {
@@ -186,7 +186,8 @@ ul li a:hover{
     justify-content: space-between;
     background-color: yellow;
     text-align: center;
-    margin: 5px;
+    
+    padding: 20px;
 }
 
 /* fin del rectangulo con texto inicial*/
