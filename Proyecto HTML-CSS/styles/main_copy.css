@@ -4,7 +4,7 @@
 }
 
 html {
-    background-color:whitesmoke ;
+    background-color: aliceblue;
 }
 
 .background_top {
@@ -150,7 +150,7 @@ ul.navigation_bar li a{
 
     display: block;
 
-    color: white;
+    color: aliceblue;
     
 
     text-decoration: none;
@@ -221,8 +221,9 @@ main {
 .main_body_content {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 
-
+    background-color: aliceblue;
 }
 
 .company_options_main{
@@ -245,6 +246,8 @@ main {
     height: 400px;
     width: 80%;
 
+    border: solid 5px #262f3d;
+    border-radius: 5px;
 }
 
 .company_option_bio {
@@ -381,30 +384,54 @@ button:hover {
     cursor: pointer;
 }
 
+.bottom_background {
+    height: 200px;
+    width: 100%;
+    background-image: url(/Imagenes/fondo.png);
+    margin-top: -105px;
+
+
+}
+
+
 .footer_content_main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #262f3d;
 
-    background-color: brown;
 }
+
+
 
 .footer_info_main{
-    background-color: aqua;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }
 
-footer .top_banner::before{
-    content: "";
-    position: absolute;
-    z-index: -1;
-    translate: 0 -50%;
+.footer_copyright_main{
+    color: aliceblue;
 
-    width: 100%;
-    height: 100%;
-    background-image: url(https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Imagenes/fondo.png?raw=true);
-    background-repeat: repeat-x;
-    transform: rotate(180deg);
-    background-position: center;
+    text-align: center;
+}
 
+.footer_links_main {
+    
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer_links_main button{
+    margin: 5px;
+}
+
+footer .top_banner{
+
+    margin-bottom: 30px;
 }
