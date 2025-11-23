@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/Proyecto HTML-CSS/styles/colon.css">
+    <link rel="icon" type="image/x-icon" href="https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Imagenes/gatotraje.ico?raw=true">
+    <title>Weyland-Yutani - Inicio</title>
+
+    <header>
+      <div class="top_spacer"></div>
+      <div class="top_banner">
+        <div class="top_lines_left_container_main">
+          <div class="top_lines_left_container">
+            <div class="left_line_t"></div>
+            <div class="left_line_b"></div>
+          </div>
+        </div>
+        <img class="top_banner_img" src="/Imagenes/WeyYuLogoBlueGrey.png">
+        <div class="top_lines_left_container_main">
+        <div class="top_lines_right_container">
+          <div class="right_line_t"></div>
+          <div class="right_line_b"></div>
+        </div>
+        </div>
+      </div >
+
+      <h1 class="company_name">Weyland-Yutani</h1>
+    </header>
+  </head>
+  <body>
+
+    <main>
+
+      <div class="main_body_content">
+
+        <div class="nav_container">
+          <ul class="navigation_bar">
+            <li><a class="nav_iplusd" href="iplusd.html">Investigacion y desarrollo</a></li>
+            <li><a class="nav_colon" href="colon.html">Colonizacion</a></li>
+            <li><a class="nav_bio" href="bio.html">Biotecnologia</a></li>
+            <li><a class="nav_main" href="main.html">Inicio</a></li>
+        </ul> 
+        </div>
+      
+
+        <div class="options_header">
+          <h2>Nuestras Colonias</h2>
+        </div>
+
+          <div class="company_colony_main">
+            <div class="colony_container_1">
+              <div class="colony_img">
+              <img src="/Imagenes/Gatoconchesumare.jpg">
+              </div>
+              <div class="colony_text">
+                <h2>LV-426 - Hadley's hope</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="company_colony_main">
+            <div class="colony_container_2">
+              <div class="colony_img">
+              <img src="/Imagenes/Gatoconchesumare.jpg">
+              </div>
+              <div class="colony_text">
+                <h2>BG-386 - Freya's Prospect</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="colony_form">
+            <fieldset>
+                <legend>Formulario para el programa de colonias</legend>
+
+            <fieldset>
+                <legend>Informacion personal</legend>
+            <form>
+
+            <div class="form_field"> 
+            <label for="fName">Nombre:</label>
+            <input type="text" id="fName" name="fName" value="Nombre" required>
+            </div>
+
+            <div class="form_field">
+            <label for="sName">Apellido:</label>
+            <input type="text" id="sName" name="sName" value="Apellido" required>
+            </div>
+            <div class="form_field">
+            <label for="bBate">Fecha de nacimiento:</label>
+            <input type="date" id="bBate" name="bBate" required>
+            </div>
+
+            <div class="form_field">
+            <label for="gTitle">Genero:</label> 
+              <div>
+              <label for="gMale">Hombre </label>
+              <input type="radio" id="gMale" name="g_pick" required>
+              <label for="gFemale">Mujer </label>
+              <input type="radio" id="gFemale" name="g_pick" required>
+              <label for="gOther">Otro </label>
+              <input type="radio" id="gOther" name="g_pick" required>
+              </div>
+            </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Informacion de contacto</legend>
+            <div class="form_field">
+            <label for="uMail">Direccion de correo electronico:</label>
+            <input type="email" id="uMail" name="uMail" value="correo electronico" required>
+            </div>
+
+            <div class="form_field">
+            <label for="uPhone">Numero de telefono:</label> 
+            <input type="number" id="uPhone" name="uPhone" value="telefono" required>
+            </div>
+
+            <div class="form_field">
+            <label for="uAdress">Direccion:</label> <br>
+            <textarea id="uAdress" name="uAdress" rows="3" cols="30" value="direccion" > </textarea>
+            </div>
+
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>Preferencias sobre colonias</legend>
+            <div class="form_field">
+            <label for="colonPick">Colonia:</label>
+            <select name="colonPick" id="colonPickr">
+                <option value="colon_LV_426">L4-426</option> 
+                <option value="colon_BG_386">BG-386</option>
+                <option value="colon_any">¡Cualquiera! ¡La simple idea me emociona!</option>
+            </select>
+            </div>
+            <div class="form_field">
+            <label for="uAler">Alergias:</label> <br>
+            <textarea id="uAler" name="uAler" rows="3" cols="50" value="Alergias"></textarea>
+            </div>
+
+            </fieldset>
+
+            <br>
+            <br>
+            <input type="checkbox" id="termsOfService" name="termsOfService" value="termsOfServiceOK" required>
+            <label for="termsOfService">Acepte los terminos de servicio</label>
+
+            <input type="checkbox" id="realInfo" name="realInfo" value="realInfoOK" required>
+            <label for="realInfo">Confirmo que la informacion escrita es veridica</label>
+            <br>
+            <br>
+
+            <input type="submit" value="Enviar"> 
+            <input type="reset" value="Borrar campos">
+
+
+            </fieldset>
+
+            </form>
+          </div>
+
+
+        
+        <div class="first_propaganda_main">
+   
+          <div class="first_propaganda_text">
+            <h2>"En el horizonte nuevos mundos esperan"</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+            <h3>-Cristina Colonia, Jefa de operaciones</h3>
+                          <div class="first_propaganda_img">
+            <img src="/Imagenes/WeyYuLogoBlueGrey.png">
+            </div> 
+          </div>
+        </div>
+        
+
+
+        <div class="bottom_background"></div>
+
+      </div>
+
+    </main>
+    <footer>
+
+      <div class="footer_content_main">
+        <div class="footer_background_container">
+        </div>
+        <div class="footer_info_main">
+
+          <div class="footer_links_main">
+            <button class="button_link_social">Socials</button>
+            <button class="button_link_social">Socials</button>
+            <button class="button_link_social">Socials</button>
+            <button class="button_link_social">Socials</button>
+            <button class="button_link_social">Socials</button>
+          </div>
+            <div class="footer_copyright_main">
+            <p>Weyland-Yutani</p>
+            <p>Todos los derechos reservados</p>
+          </div>
+        </div>
+      <div class="top_banner">
+        <div class="top_lines_left_container_main">
+          <div class="top_lines_left_container">
+            <div class="left_line_b"></div>
+            <div class="left_line_t"></div>
+          </div>
+        </div>
+        <img class="top_banner_img" src="/Imagenes/WeyYuLogoBlueGrey.png">
+        
+        <div class="top_lines_left_container_main">
+        <div class="top_lines_right_container">
+          <div class="right_line_b"></div>
+          <div class="right_line_t"></div>
+        </div>
+        </div>
+      </div>
+
+      </div>
+    </footer>
+  </body>
+</html>
