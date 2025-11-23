@@ -115,6 +115,7 @@ header .top_banner::after {
     font-family: neuroPolitical;
     text-align: center;
     color: cadetblue;
+
 }
 
 .nav_container{
@@ -178,7 +179,7 @@ ul li a:hover{
     background-color:aquamarine;
 }
 
-ul.navigation_bar li a.nav_bio{
+ul.navigation_bar li a.nav_iplusd{
     padding: 14px 28px;
 
     font-family: neuroPolitical;
@@ -193,7 +194,7 @@ ul.navigation_bar li a.nav_bio{
     font-weight: 700; 
 }
 
-ul li a.nav_bio:hover{
+ul li a.nav_iplusd:hover{
 
     color: black;
     background-color:aquamarine;
@@ -269,7 +270,31 @@ main {
     text-align: center;
 }
 
-.company_bio_propaganda_main {
+
+
+
+
+
+
+.iplusd_projects_title{
+    text-align: center;
+}
+
+.iplusd_grid_container {
+    display: grid;
+
+    grid-auto-flow: row;
+
+    width: 80%;    
+    grid-template-columns: auto auto auto;
+
+    grid-auto-flow:dense;
+    align-self: center;
+    align-items: center;
+
+}
+
+.company_colony_main_1 {
 
     align-self: center;
     margin: 10px;
@@ -277,22 +302,137 @@ main {
     justify-content: center;
     background-color:azure;
 
-    height: 50%;
-    width: 80%;
-
-
+    
 
     border: solid 5px #262f3d;
     border-radius: 5px;
+    background-image: url(/Imagenes/Gatoconchesumare.jpg);
+    background-position: center;
+    aspect-ratio: 1;
+    background-size: cover;
 }
 
-.bio_propaganda {
+.company_colony_main_2 {
+
+    align-self: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:azure;
+
+    
+
+    border: solid 5px #262f3d;
+    border-radius: 5px;
+    background-image: url(/Imagenes/gatostare.png);
+    background-position: center;
+    aspect-ratio: 1;
+    background-size: cover;
+}
+
+.company_colony_main_3 {
+
+    align-self: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:azure;
+
+    
+
+    border: solid 5px #262f3d;
+    border-radius: 5px;
+    background-image: url(/Imagenes/gatotraje.jpg);
+    background-position: center;
+    aspect-ratio: 1;
+    background-size: cover;
+}
+
+.company_colony_main_4 {
+
+    align-self: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:azure;
+
+    
+
+    border: solid 5px #262f3d;
+    border-radius: 5px;
+    background-image: url(/Imagenes/gatosorpresa.png);
+    background-position: center;
+    aspect-ratio: 1;
+    background-size: cover;
+}
+
+.company_colony_main_5 {
+
+    align-self: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:azure;
+
+    
+
+    border: solid 5px #262f3d;
+    border-radius: 5px;
+    background-image: url(/Imagenes/gato.png);
+    background-position: center;
+    aspect-ratio: 1;
+    background-size: cover;
+}
+
+.company_colony_main_6 {
+
+    align-self: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:azure;
+
+    
+
+    border: solid 5px #262f3d;
+    border-radius: 5px;
+    background-image: url(/Imagenes/AhiTienesLaFotoDeUnPerro_YaNoTePuedesQuejarAna.jpg);
+    background-position: center;
+    aspect-ratio: 1;
+    background-size: cover;
+}
+
+
+
+.colony_container_1 {
+
     display: flex;
     flex-direction: row;
     
+  
+    overflow: hidden;
+
+
 }
 
-.propaganda_bio_img {
+.colony_container_1:hover {
+
+    background-color: rgba(240, 248, 255, 0.507);
+    
+
+}
+
+
+.colony_container_2 {
+    display: flex;
+    flex-direction: row-reverse;
+    
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+
+.colony_img {
     overflow:hidden;
   
     height: 100%;
@@ -300,7 +440,7 @@ main {
 
 }
 
-.propaganda_bio_img img{
+.colony_img img{
 
     height: 100%;
     width: 100%;
@@ -308,80 +448,49 @@ main {
     object-fit:cover;
 }
 
-.propaganda_bio_text{
+.colony_text{
 
     display: flex;
     flex-direction: column;
 
     text-align: center;
-    justify-content:center;
+    justify-content:space-around;
     margin: 10px;
-}
-
-
-
-
-
-.company_options_main{
     
-    display: flex;
-    flex-direction: row;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-repeat:repeat-x;
-
-
-}
-
-.company_option {
-
-    align-self: center;
-    margin: 10px;
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-between;
-    background-color:azure;
-    width: 80%;
-    height: 100%;
-    border: solid 5px #262f3d;
-    border-radius: 5px;
-
-}
-
-
-
-.company_option_text{
-
-    display: flex;
-    flex-direction: column;
-
-    text-align: center;
-    justify-content: space-between;
-
-    margin: 10px;
+    opacity: 0;
     
 }
 
-.company_option_text button{
-    align-self: center;
-    height: 50px;
-    width: 200px;
-
+.colony_text:hover{
+    opacity: 1;
+    
 }
 
-button.company_option_button {
-    border: none;
-    border-radius: 50px;
-    background-color: darkslategrey;
-    color: white;
-    font-weight: 700;
-}
 
 button.company_option_button:hover {
  
     background-color: cadetblue;
     cursor: pointer;
 }
+
+.random_list_container {
+    
+    display: flex;
+
+}
+
+.random_list {
+
+    display: flex;
+    justify-content: center;
+}
+
+.random_list li {
+
+    margin: 10px;
+}
+
+
 
 .bottom_background {
     height: 200px;
