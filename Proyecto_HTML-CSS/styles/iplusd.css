@@ -327,6 +327,7 @@ main {
     border-radius: 5px;
     background-image: url(../Imagenes/gatostare.png);
     background-position: center;
+
     aspect-ratio: 1;
     background-size: cover;
 }
@@ -433,21 +434,7 @@ main {
 }
 
 
-.colony_img {
-    overflow:hidden;
-  
-    height: 100%;
-    flex-basis: 100%;
 
-}
-
-.colony_img img{
-
-    height: 100%;
-    width: 100%;
-
-    object-fit:cover;
-}
 
 .colony_text{
 
@@ -456,10 +443,8 @@ main {
 
     text-align: center;
     justify-content:space-around;
-    margin: 10px;
     
     opacity: 0;
-    
 }
 
 .colony_text:hover{
