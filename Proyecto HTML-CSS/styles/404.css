@@ -1,6 +1,6 @@
 @font-face {
     font-family: neuroPolitical;
-    src: url(https://github.com/ConnorTheCone/LLMarcas_Practica0/blob/main/Fonts/neuropolitical_rg-webfont.woff);
+    src: url(/Fonts/neuropolitical_rg-webfont.woff);
 }
 
 html {
@@ -116,6 +116,8 @@ header .top_banner::after {
     font-family: neuroPolitical;
     text-align: center;
     color: cadetblue;
+    background-color: #262f3d;
+
 }
 
 .nav_container{
