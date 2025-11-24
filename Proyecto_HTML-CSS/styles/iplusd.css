@@ -37,7 +37,7 @@ html {
 header .top_banner::after {
     content: "";
     position: absolute;
-    background-image: url(Imagenes/fondoHeader.svg);
+    background-image: url(../Imagenes/fondoHeader.svg);
     width: 100%;
     height: 100%;
     background-size: auto;
