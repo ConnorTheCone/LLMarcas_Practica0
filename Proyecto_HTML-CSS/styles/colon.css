@@ -1,6 +1,6 @@
 @font-face {
     font-family: neuroPolitical;
-    src: url(/Fonts/neuropolitical_rg-webfont.woff);
+    src: url(Fonts/neuropolitical_rg-webfont.woff);
 }
 
 html {
@@ -37,7 +37,7 @@ html {
 header .top_banner::after {
     content: "";
     position: absolute;
-    background-image: url(/Imagenes/fondoHeader.svg);
+    background-image: url(../Imagenes/fondoHeader.svg);
     width: 100%;
     height: 100%;
     background-size: auto;
@@ -384,7 +384,7 @@ button.company_option_button:hover {
 .bottom_background {
     height: 200px;
     width: 100%;
-    background-image: url(/Imagenes/fondo.png);
+    background-image: url(../Imagenes/fondo.png);
     flex-shrink: 0;
     margin-top: -105px;
     z-index: -1;

@@ -1,6 +1,6 @@
 @font-face {
     font-family: neuroPolitical;
-    src: url(/Fonts/neuropolitical_rg-webfont.woff);
+    src: url(Fonts/neuropolitical_rg-webfont.woff);
 }
 
 html {
@@ -37,7 +37,7 @@ html {
 header .top_banner::after {
     content: "";
     position: absolute;
-    background-image: url(/Imagenes/fondoHeader.svg);
+    background-image: url(Imagenes/fondoHeader.svg);
     width: 100%;
     height: 100%;
     background-size: auto;
@@ -307,7 +307,7 @@ main {
 
     border: solid 5px #262f3d;
     border-radius: 5px;
-    background-image: url(/Imagenes/Gatoconchesumare.jpg);
+    background-image: url(../Imagenes/Gatoconchesumare.jpg);
     background-position: center;
     aspect-ratio: 1;
     background-size: cover;
@@ -325,7 +325,7 @@ main {
 
     border: solid 5px #262f3d;
     border-radius: 5px;
-    background-image: url(/Imagenes/gatostare.png);
+    background-image: url(../Imagenes/gatostare.png);
     background-position: center;
     aspect-ratio: 1;
     background-size: cover;
@@ -343,7 +343,7 @@ main {
 
     border: solid 5px #262f3d;
     border-radius: 5px;
-    background-image: url(/Imagenes/gatotraje.jpg);
+    background-image: url(../Imagenes/gatotraje.jpg);
     background-position: center;
     aspect-ratio: 1;
     background-size: cover;
@@ -361,7 +361,7 @@ main {
 
     border: solid 5px #262f3d;
     border-radius: 5px;
-    background-image: url(/Imagenes/gatosorpresa.png);
+    background-image: url(../Imagenes/gatosorpresa.png);
     background-position: center;
     aspect-ratio: 1;
     background-size: cover;
@@ -379,7 +379,7 @@ main {
 
     border: solid 5px #262f3d;
     border-radius: 5px;
-    background-image: url(/Imagenes/gato.png);
+    background-image: url(../Imagenes/gato.png);
     background-position: center;
     aspect-ratio: 1;
     background-size: cover;
@@ -397,7 +397,7 @@ main {
 
     border: solid 5px #262f3d;
     border-radius: 5px;
-    background-image: url(/Imagenes/AhiTienesLaFotoDeUnPerro_YaNoTePuedesQuejarAna.jpg);
+    background-image: url(../Imagenes/AhiTienesLaFotoDeUnPerro_YaNoTePuedesQuejarAna.jpg);
     background-position: center;
     aspect-ratio: 1;
     background-size: cover;
@@ -496,7 +496,7 @@ button.company_option_button:hover {
 .bottom_background {
     height: 200px;
     width: 100%;
-    background-image: url(/Imagenes/fondo.png);
+    background-image: url(../Imagenes/fondo.png);
     flex-shrink: 0;
     margin-top: -105px;
     z-index: -1;
